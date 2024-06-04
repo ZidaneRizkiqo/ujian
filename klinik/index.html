@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JoyCat-klinik</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="main.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="napbar">
+      <nav
+        class="rounded-pill d-flex align-items-center"
+        style="padding-right: -900px; height: 80px; overflow: hidden"
+      >
+        <div class="mx-5">
+          <a class="navbar-brand" href="/index.html">
+            <img
+              src="images/logo 1.png"
+              alt="Bootstrap"
+              width="120px"
+              height="50px"
+            />
+          </a>
+        </div>
+        <div
+          class="container d-flex justify-content-end mx-3"
+          id="rightnav"
+          style="gap: 24px; margin-right: -90px; "
+        >
+          <a
+            style="color: #2e5171; font-weight: 600; text-decoration: none;"
+            href="/tentang-kami/index.html"
+            class="text-decoration-wh"
+            >Tentang Kami</a
+          >
+          <img class="cap-anjing" src="./images/paw.png" alt="" />
+          <a
+            style="color: #2e5171; font-weight: 600; text-decoration: none;"
+            href="/klinik/index.html"
+            class="text-decoration-none"
+            >Klinik</a
+          >
+          <a
+            style="color: #2e5171; font-weight: 600; text-decoration: none;"
+            href="/daycare/index.html"
+            class="text-decoration-none"
+            >Daycare & Grooming</a
+          >
+          <a
+            style="color: #2e5171; font-weight: 600; text-decoration: none;"
+            href="/Adopsi/index.html"
+            class="text-decoration-none"
+            >Adopsi</a
+          >
+          <img
+            src="images/Hamburger.svg"
+            class="hamburger"
+            alt=""
+            id="menu"
+            onclick="myFunction(); changeImage()"
+          />
+        </div>
+      </nav>
+      <div id="hamburger-div">
+        <div class="container lowercontainer">
+          <a id="ham-tulisan" href="/tentang-kami/index.html" class="text-decoration-none"
+            >Tentang Kami</a
+          >
+          <a id="ham-tulisan" href="/klinik/index.html" class="text-decoration-none">Klinik</a>
+          <a id="ham-tulisan" href="/daycare/index.html" class="text-decoration-none"
+            >Daycare & Grooming</a
+          >
+          <a id="ham-tulisan" href="/Adopsi/index.html" class="text-decoration-none">Adopsi</a>
+          <p id="ham-tulisan" class="align-content-center">
+            <img src="images/Group.png" alt="" /><a style="text-decoration: none; list-style-type: none; color: #2e5171;" href="https://wa.me/0812345678910">0812-3456-78910</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <img src="./images/hero (2).svg" alt="" class="imgHeader" />
+
+    <section class="hero">
+      <div class="container">
+        <div class="d-flex flex-column flex-md-row align-items-center">
+          <h1 class="h1-about font-weight-bold">
+            Klinik<br />
+            kucing
+          </h1>
+          <img class="" src="./images/CatPaw (1).svg" alt="" />
+          <div class="col-md-8">
+            <p id="p-about" class="lead">
+              Selamat datang di Klinik Kucing Joy Cat, tempat di mana kesehatan
+              dan kesejahteraan kucing Anda adalah prioritas utama kami. Kami
+              menyediakan berbagai layanan medis dengan dukungan tim dokter
+              hewan yang berpengalaman dan fasilitas modern.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container service-section">
+        <div class="how row">
+          <div class="col-md-6">
+            <h1 class="service-title">1. Pemeriksaan Kesehatan Rutin</h1>
+          </div>
+          <div class="col-md-6">
+            <p class="service-description">
+              Kami menawarkan pemeriksaan kesehatan rutin untuk memastikan
+              kucing Anda dalam kondisi prima. Pemeriksaan ini meliputi
+              pengecekan fisik, pengukuran berat badan, dan evaluasi kesehatan
+              secara keseluruhan.
+            </p>
+          </div>
+        </div>
+        <div class="how row">
+          <div class="col-md-6">
+            <h1 class="service-title">2. Vaksinasi</h1>
+          </div>
+          <div class="col-md-6">
+            <p class="service-description">
+              Lindungi kucing Anda dari penyakit berbahaya dengan vaksinasi yang
+              tepat waktu. Kami menyediakan vaksinasi lengkap sesuai dengan
+              jadwal yang direkomendasikan oleh dokter hewan
+            </p>
+          </div>
+        </div>
+        <div class="how row">
+          <div class="col-md-6">
+            <h1 class="service-title">3. Pengobatan Penyakit</h1>
+          </div>
+          <div class="col-md-6">
+            <p class="service-description">
+              Apapun penyakit yang mungkin dihadapi kucing Anda, kami siap
+              memberikan diagnosis yang akurat dan pengobatan yang efektif. Tim
+              kami berkomitmen untuk memberikan perawatan terbaik agar kucing
+              Anda segera pulih.
+            </p>
+          </div>
+        </div>
+        <div class="how row">
+          <div class="col-md-6">
+            <h1 class="service-title">4. Bedah</h1>
+          </div>
+          <div class="col-md-6">
+            <p class="service-description">
+              Klinik kami dilengkapi dengan ruang operasi yang steril dan
+              peralatan modern untuk melakukan berbagai prosedur bedah, dari
+              operasi minor hingga operasi mayor. Dokter hewan kami akan
+              memberikan penjelasan mendetail dan dukungan pasca-operasi.
+            </p>
+          </div>
+        </div>
+        <div class="how row">
+          <div class="col-md-6">
+            <h1 class="service-title">5. Konsultasi Kesehatan</h1>
+          </div>
+          <div class="col-md-6">
+            <p class="service-description">
+              Punya pertanyaan tentang kesehatan kucing Anda? Kami menyediakan
+              layanan konsultasi kesehatan untuk memberikan informasi dan saran
+              yang Anda butuhkan. Baik secara langsung di klinik atau melalui
+              konsultasi online.
+            </p>
+          </div>
+        </div>
+        <div class="how row">
+          <div class="col-md-6">
+            <h1 class="service-title">6. Laboratorium Diagnostik</h1>
+          </div>
+          <div class="col-md-6">
+            <p class="service-description">
+              Dengan fasilitas laboratorium yang lengkap, kami dapat melakukan
+              berbagai tes diagnostik seperti tes darah, urin, dan lainnya untuk
+              mendukung diagnosis yang akurat.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="dokter">
+      <div class="container doctor-schedule-section">
+        <h1 class="doctor-title" style="justify-content: start; display: flex">
+          Jadwal Dokter
+        </h1>
+        <div class="row justify-content-center">
+          <div id="respon" class="col-md-6 doctor-card d-flex">
+            <img src="./images/dokter-1 1.svg" alt="dr. Bima Sakti" />
+            <div class="jadwal-dokter">
+              <p class="doctor-name">dr. Bima Sakti</p>
+              <p class="doctor-schedule">
+                Senin, Rabu, Jumat<br />08.00 - 15.00
+              </p>
+            </div>
+          </div>
+          <div id="respon" class="col-md-6 doctor-card d-flex">
+            <img src="./images/dokter-1 1 (1).svg" alt="dr. Andromeda" />
+            <div class="jadwal-dokter">
+              <p class="doctor-name">dr. Andromeda</p>
+              <p class="doctor-schedule">
+                Selasa, Kamis, Sabtu<br />10.00 - 17.00
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="ngeselin container py-5">
+      <div class="reservation-section flex-col flex-md-row">
+        <div class="reservation-info col-md-6">
+          <p>cek antrian klinik dan lakukan reservasi melalui nomor berikut:</p>
+          <div class="whatsapp-number">
+            <img src="./images/_WhatsApp.svg" alt="WhatsApp" />
+            <a style="color: white" href="https://wa.me/0812345678910"
+              >0812-3456-78910</a
+            >
+          </div>
+        </div>
+        <div class="reservation-img d-flex justify-content-between col-md-6">
+          <img
+            src="./images/cat-contact 1.svg"
+            alt="Cute Cat with Headphones"
+          />
+        </div>
+      </div>
+    </div>
+
+    <footer id="footer" class="footer text-white py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 mb-3">
+            <img
+              class="dark-logo"
+              src="./images/logo-light.svg"
+              alt=""
+              style="width: 100%"
+            />
+          </div>
+          <div class="col-md-3 mb-3">
+            <h5>Main Links</h5>
+            <ul class="list-unstyled">
+              <li><a href="/index.html" class="text-white">Home</a></li>
+              <li><a href="/klinik/index.html" class="text-white">Klinik</a></li>
+              <li><a href="/daycare/index.html" class="text-white">Daycare & Grooming</a></li>
+              <li><a href="/Adopsi/index.html" class="text-white">Adopsi</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 mb-3">
+            <h5>Contact</h5>
+            <a href="https://wa.me/0812345678910" style="color: white;">0812-3456-78910</a>
+            <p>
+              <a href="mailto:admin@joycat.com" class="text-white"
+                >admin@joycat.com</a
+              >
+            </p>
+            <a class="list-unstyled" href=" https://maps.app.goo.gl/d9ze4WH84M2zgJZc6" style="color: white;">
+            <p>
+              Jl. Radar Auri No.32d, Cisalak Ps., Kec. Cimanggis, Kota Depok,
+              Jawa Barat 16452
+            </p>
+          </a>
+          </div>
+          <div class="col-md-3 mb-3">
+            <h5>Follow us for updates</h5>
+            <a href="#" class="text-white"
+              ><img src="./images/Icon-YT.svg" alt="YouTube" width="24"
+            /></a>
+            <a href="#" class="text-white"
+              ><img src="./images/Icon-YT (1).svg" alt="TikTok" width="24"
+            /></a>
+            <a href="#" class="text-white"
+              ><img src="./images/Icon-YT (2).svg" alt="Instagram" width="24"
+            /></a>
+          </div>
+        </div>
+      </div>
+      <hr class="garis" style="height: 1px; background-color: #c6eae3" />
+      <div class="row mt-4">
+        <div class="col-12">
+          <p class="text-center">
+            &copy; 2024 · Asesmen Sumatif Akhir Tahun Sekolah Developer
+            Indonesia · Dibuat oleh Abdullah Fulan · All images are either free
+            stocks or generated by AI.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,387 @@
+body {
+    font-family: "Barlow", sans-serif;
+  }
+
+  a {
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+  }
+  
+  header {
+    background-color: #EDF8F9;
+  }
+  
+  header img {
+    max-width: 150px;
+  }
+  
+   /* navbar */
+nav {
+  background-color: white;
+  background-image: url(images/paw-pattern-light.png);
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  z-index: 10;
+}
+
+.container .hamburger {
+  display: none;
+  cursor: pointer;
+
+}
+
+#hamburger-div {
+  justify-content: center;
+  width: 99%;
+  height: 1500px;
+  background-color: white;
+  background-image: url(./images/paw-pattern-light.png);
+  padding: 40px 20px 40px 20px;
+  border-radius: 32px 32px 0px 0px;
+  display: none;
+  color: #2E5070;
+  font-size: 24px;
+
+}
+
+#ham-tulisan {
+  color: #2E5070;
+  font-family: "Barlow", sans-serif;
+  font-size: 24px;
+}
+
+#rightnav {
+  color: #2e5171;
+  margin-right: -90px;
+}
+
+.lowercontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  font-family: "Barlow";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28.8px;
+  text-align: center;
+}
+
+.ul-nav {
+  color: #2e5171;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+#a-nav {
+  color: #2e5171;
+}
+  
+
+  .hero-section {
+    background-color: #e8f5fe;
+    padding: 60px 0px 30px 0px;
+  }
+
+  .hero-section .container{
+    padding-top: 60px;
+  }
+  
+  #h1-hero {
+    font-size: 56px;
+    font-family: "Barlow", sans-serif;
+    color: #2e5070;
+  }
+  
+  #p1-hero {
+    color: #2E5070;
+    font-size: 20px;
+  }
+  
+  .hero-section p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-top: 20px;
+  }
+  
+  .image-group {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .main-image {
+    border-radius: 15px;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .img-small {
+    width: 30%;
+    position: absolute;
+  
+  }
+  
+  .top-left {
+    top: -20px;
+    left: -20px;
+    border-radius: 50%;
+  
+  }
+  
+  .bottom-right {
+    bottom: -20px;
+    right: -20px;
+  
+  
+  }
+  
+  #card {
+    background-color: #c6eae3;
+    padding-left: 128px;
+    padding-right: 128px;
+  }
+  
+  .h2-card {
+    font-size: 64px;
+    display: flex;
+    justify-content: center;
+    color: #2e5070;
+    padding-top: 150px;
+    font-family: "Barlow", sans-serif;
+  }
+  
+  
+  .card {
+    padding: 16px;
+    border-radius: 18px;
+    color: #2E5070;
+  }
+  
+  .card h5 {
+    font-size: 32px;
+    font-family: "Barlow", sans-serif;
+  }
+  
+  .card p {
+    font-size: 20px;
+    font-family: "Barlow", sans-serif;
+  }
+  
+  .card button {
+    background: rgba(149, 187, 111, 1);
+    padding: 24px;
+    border-radius: 200px;
+    border: 0px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    width: 100%;
+  }
+  
+  .contact {
+    background-image: url(./images/fidel-fernando-fopwDMRoOlE-unsplash.jpg);
+    background-size: cover;
+    background-position: left 0 top -200px;
+    padding: 128px 40px 128px 40px;
+  }
+  
+  .gapping {
+    gap: 20px;
+  
+  }
+  
+  
+  
+  
+  .bungkus {
+    padding: 50px 40px 128px 40px;
+  }
+  
+  
+  #Maps {
+    background-color: white;
+    padding: 32px;
+    border-radius: 18px;
+    color: #2e5070;
+    height:536.77px;
+    width: 492px;
+  
+  
+  }
+  
+  #Maps p {
+    font-size: 18px;
+    color: #2e5070;
+  }
+  
+  #Maps h4 {
+    font-size: 32px;
+    color: #2e5070;
+  }
+  
+  
+  .open {
+    background-color: white;
+    padding: 32px;
+    border-radius: 18px;
+    color: #2e5070;
+    width: 492px;
+    height: 536.77px;
+  }
+  
+  .open h4 {
+    font-size: 32px;
+    color: #2e5070;
+  }
+  
+  .open p {
+    font-size: 18px;
+    color: #2e5070;
+  }
+  
+  .testimonial-section {
+    background-color: #d4f0f7;
+    padding: 100px 40px 100px 40px;
+  }
+  
+  .testimonial-card {
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+  }
+  
+  .testimonial-card .author {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .testimonial-card .quote-icon {
+    color: #fbb034;
+    font-size: 30px;
+  }
+  
+  .testimonial-card p {
+    color: #2e5070;
+    font-family: "Barlow", sans-serif;
+    font-size: 18px;
+  }
+  
+  .testimonial h6 {
+    color: #2e5070;
+    font-family: "Barlow", sans-serif;
+    font-size: 18px;
+  }
+  
+  
+  .footer {
+    background-color: #002b4c;
+  }
+  
+  .footer h4, .footer h5 {
+    color: #ffffff;
+  }
+  
+  .footer ul {
+    padding-left: 0;
+  }
+  
+  .footer ul li {
+    list-style: none;
+  }
+  
+  .footer ul li a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer img {
+    margin-right: 10px;
+  }
+  
+  .footer p, .footer a {
+    font-size: 0.9rem;
+  }
+  
+  .footer p {
+    margin: 0;
+    line-height: 1.6;
+  }
+  
+  .footer-logo {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.5rem;
+  }
+  
+  #footer {
+    background-color: #2E5070;
+    background-image: url(./images/paw-pattern-dark.png);
+  }
+  
+  
+  @media (max-width: 600px) {
+    #Maps {
+      width: 500px;
+    }
+  
+    .gapping {
+      flex-direction: column;
+      display: flex;
+      justify-content: center;
+    }
+  
+    #card {
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+  
+    .contact {
+      padding: 128px 10px;
+    }
+  
+    .garis {
+      width: 350px;
+    }
+
+
+    nav {
+      overflow: hidden;
+      z-index: 10;
+    }
+  
+    #rightnav a {
+        display: none;
+    }
+  
+    .container .hamburger {
+        display: flex;
+    }
+  
+    #hamburger-div {
+        display: none;
+        margin-top: 110px;
+        position: fixed;
+        z-index: 10;
+    }
+  #hamburger-div a {
+    color: #2e5171;
+  }
+  
+  .cap-anjing {
+    display: none;
+  }
+    
+
+    
+  }

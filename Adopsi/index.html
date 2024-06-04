@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JoyCat-tentang-kami</title>
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="napbar">
+      <nav
+        class="rounded-pill d-flex align-items-center"
+        style="padding-right: -900px; height: 80px; overflow: hidden"
+      >
+        <div class="mx-5">
+          <a class="navbar-brand" href="/index.html">
+            <img
+              src="images/logo 1.png"
+              alt="Bootstrap"
+              width="120px"
+              height="50px"
+            />
+          </a>
+        </div>
+        <div
+          class="container d-flex justify-content-end mx-3"
+          id="rightnav"
+          style="gap: 24px; margin-right: -90px; "
+        >
+        
+          <a
+            style="color: #2e5171; font-weight: 600; text-decoration: none;"
+            href="/tentang-kami/index.html"
+            class="text-decoration-wh"
+            >Tentang Kami</a
+          >
+          <a
+            style="color: #2e5171; font-weight: 600; text-decoration: none;"
+            href="/klinik/index.html"
+            class="text-decoration-none"
+            >Klinik</a
+          >
+          <a
+            style="color: #2e5171; font-weight: 600; text-decoration: none;"
+            href="/daycare/index.html"
+            class="text-decoration-none"
+            >Daycare & Grooming</a
+          >
+          <img class="cap-anjing" src="./images/paw.png" alt="" />
+          <a
+            style="color: #2e5171; font-weight: 600; text-decoration: none;"
+            href="/Adopsi/index.html"
+            class="text-decoration-none"
+            >Adopsi</a
+          >
+          <img
+            src="images/Hamburger.svg"
+            class="hamburger"
+            alt=""
+            id="menu"
+            onclick="myFunction(); changeImage()"
+          />
+        </div>
+      </nav>
+      <div id="hamburger-div">
+        <div class="container lowercontainer">
+          <a id="ham-tulisan" href="/tentang-kami/index.html" class="text-decoration-none"
+            >Tentang Kami</a
+          >
+          <a id="ham-tulisan" href="/klinik/index.html" class="text-decoration-none">Klinik</a>
+          <a id="ham-tulisan" href="/daycare/index.html" class="text-decoration-none"
+            >Daycare & Grooming</a
+          >
+          <a id="ham-tulisan" href="/Adopsi/index.html" class="text-decoration-none">Adopsi</a>
+          <p id="ham-tulisan" class="align-content-center">
+            <img src="images/Group.png" alt="" /><a style="text-decoration: none; list-style-type: none; color: #2e5171;" href="https://wa.me/0812345678910">0812-3456-78910</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <img
+      id="hero-section"
+      src="./images/hero (4).svg"
+      alt=""
+      class="imgHeader"
+    />
+
+    <section class="hero">
+      <div class="container">
+        <div class="d-flex flex-column flex-md-row align-items-center">
+          <h1 class="h1-about font-weight-bold">
+            Cat <br />
+            Adoption
+          </h1>
+          <img class="" src="./images/CatPaw (1).svg" alt="" />
+          <div class="col-md-8">
+            <p id="p-about" class="lead">
+              Berikut adalah beberapa kucing yang saat ini siap untuk diadopsi.
+              Klik pada gambar untuk melihat informasi lebih detail tentang
+              masing-masing kucing.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cat-option">
+      <div class="carding">
+        <div class="row">
+          <div class="cord col-md-3">
+            <div class="card p-3">
+              <img
+                src="./images/upload-cat-groom-1 1 (2).svg"
+                class="card-img-top"
+                alt="Cat Image"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Bella</h5>
+                <ul id="ul-satu" class="list-unstyled">
+                  <li>Umur: <strong>3 tahun</strong></li>
+                  <li>Kelamin: <strong>Betina</strong></li>
+                  <li>Jenis: <strong>Persia</strong></li>
+                  <li>Bobot: <strong>5.5kg</strong></li>
+                  <li>
+                    Sifat: <strong>Ramah, pendiam, senang rebahan</strong>
+                  </li>
+                </ul>
+                <a href="https://wa.me/0812345678910">
+                  <button
+                    class="btn"
+                    style="
+                      background-color: #95bb6f;
+                      width: 100%;
+                      height: 84px;
+                      border-radius: 200px;
+                      color: white;
+                    "
+                  >
+                    <i class="bi bi-whatsapp"></i>Reservasi Sekarang
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="cord col-md-3">
+            <div class="card p-3">
+              <img
+                src="./images/upload-cat-groom-1 1 (3).svg"
+                class="card-img-top"
+                alt="Cat Image"
+              />
+              <div class="card-body">
+                <h5 class="card-title">leo</h5>
+                <ul id="ul-satu" class="list-unstyled">
+                  <li>Umur: <strong>3 tahun</strong></li>
+                  <li>Kelamin: <strong>Jantan</strong></li>
+                  <li>Jenis: <strong>Anggora</strong></li>
+                  <li>Bobot: <strong>5kg</strong></li>
+                  <li>
+                    Sifat:
+                    <strong
+                      >Aktif, energetik, jarang tidur, tidak suka ikan</strong
+                    >
+                  </li>
+                </ul>
+                <a href="https://wa.me/0812345678910">
+                  <button
+                    class="btn"
+                    style="
+                      background-color: #95bb6f;
+                      width: 100%;
+                      height: 84px;
+                      border-radius: 200px;
+                      color: white;
+                    "
+                  >
+                    <i class="bi bi-whatsapp"></i>Reservasi Sekarang
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="cord col-md-3">
+            <div class="card p-3">
+              <img
+                src="./images/upload-cat-groom-1 1 (4).svg"
+                class="card-img-top"
+                alt="Cat Image"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Momo</h5>
+                <ul id="ul-satu" class="list-unstyled">
+                  <li>Umur: <strong>3.5 tahun</strong></li>
+                  <li>Kelamin: <strong>Jantan</strong></li>
+                  <li>Jenis: <strong>Domestic Short Hair</strong></li>
+                  <li>Bobot: <strong>5kg</strong></li>
+                  <li>
+                    Sifat:
+                    <strong
+                      >Tenang, clingy, mudah dipanggil, tidak suka gelap</strong
+                    >
+                  </li>
+                </ul>
+                <a href="https://wa.me/0812345678910">
+                  <button
+                    class="btn"
+                    style="
+                      background-color: #95bb6f;
+                      width: 100%;
+                      height: 84px;
+                      border-radius: 200px;
+                      color: white;
+                    "
+                  >
+                    <i class="bi bi-whatsapp"></i>Reservasi Sekarang
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="cord col-md-3">
+            <div class="card p-3">
+              <img
+                src="./images/upload-cat-groom-1 1 (5).svg"
+                class="card-img-top"
+                alt="Cat Image"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Tom</h5>
+                <ul id="ul-satu" class="list-unstyled">
+                  <li>Umur: <strong>4 tahun</strong></li>
+                  <li>Kelamin: <strong>Jantan</strong></li>
+                  <li>Jenis: <strong>Maine Cppn</strong></li>
+                  <li>Bobot: <strong>6kg</strong></li>
+                  <li>
+                    Sifat:
+                    <strong
+                      >Mageran, suka ngumpet, penakut sama orang baru</strong
+                    >
+                  </li>
+                </ul>
+                <a href="https://wa.me/0812345678910">
+                  <button
+                    class="btn"
+                    style="
+                      background-color: #95bb6f;
+                      width: 100%;
+                      height: 84px;
+                      border-radius: 200px;
+                      color: white;
+                    "
+                  >
+                    <i class="bi bi-whatsapp"></i>Reservasi Sekarang
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carder">
+        <div class="col-md-3">
+          <div class="card p-3">
+            <img
+              src="./images/upload-cat-groom-1 1 (6).svg"
+              class="card-img-top"
+              alt="Cat Image"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Anabell</h5>
+              <ul id="ul-satu" class="list-unstyled">
+                <li>Umur: <strong>2 tahun</strong></li>
+                <li>Kelamin: <strong>Betina</strong></li>
+                <li>Jenis: <strong>Domestic</strong></li>
+                <li>Bobot: <strong>4.5kg</strong></li>
+                <li>Sifat: <strong>Tidak bisa diam, clingy</strong></li>
+              </ul>
+              <a href="https://wa.me/0812345678910">
+                <button
+                  class="btn"
+                  style="
+                    background-color: #95bb6f;
+                    width: 100%;
+                    height: 84px;
+                    border-radius: 200px;
+                    color: white;
+                  "
+                >
+                  <i class="bi bi-whatsapp"></i>Reservasi Sekarang
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="javsc">
+      <div class="container">
+          <div class="custom-form d-flex flex-col  flex-md-row">
+              <div class="col-md-6">
+                  <div>
+                      <h2 class="h2-akhir">Tidak menemukan kucing yang tepat untuk Anda?</h2>
+                      <p class="p-akhir">
+                          Isi form di bawah ini, kami akan memberitahu Anda jika ada yang menitipkan kucing yang Anda inginkan.
+                      </p>
+                  </div>
+                  <form id="catForm" method="dialog">
+                      <div class="form-group">
+                          <label class="nama" for="nama"> <span> Nama</span></label>
+                          <input type="text" class="form-control" id="nama" placeholder="Tuliskan nama Anda" required />
+                      </div>
+                      <div class="form-group">
+                          <label class="nama" for="email"><span>Email</span></label>
+                          <input type="email" class="form-control" id="email" placeholder="Alamat Email Anda" required />
+                      </div>
+                      <div class="form-group">
+                          <label class="nama" for="preferensi"><span>Preferensi kucing yang diinginkan</span></label>
+                          <textarea class="form-control-dua" id="preferensi" rows="3" placeholder="Contoh: Persia, Betina, umur 3 tahun ke atas, putih polos" required></textarea>
+                      </div>
+                      <button type="submit" class="btn" id="submit">Submit</button>
+                  </form>
+                  <div id="thankYouMessage" class="hidden">
+                      Terima kasih telah mengisi formulir.
+                      Kami akan memberitahu Anda via email jika kami menemukan kucing yang Anda cari. 😃
+                  </div>
+              </div>
+              <div class="done-man col-md-6">
+                  <img style="width: 100%;" src="./images/Image.svg" alt="Kucing"/>
+              </div>
+          </div>
+      </div>
+  </section>
+
+    <footer id="footer" class="footer text-white py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 mb-3">
+            <img
+              class="dark-logo"
+              src="./images/logo-light.svg"
+              alt=""
+              style="width: 100%"
+            />
+          </div>
+          <div class="col-md-3 mb-3">
+            <h5>Main Links</h5>
+            <ul class="list-unstyled">
+              <li><a href="/index.html" class="text-white">Home</a></li>
+              <li>
+                <a href="/klinik/index.html" class="text-white">Klinik</a>
+              </li>
+              <li>
+                <a href="/daycare/index.html" class="text-white"
+                  >Daycare & Grooming</a
+                >
+              </li>
+              <li>
+                <a href="/Adopsi/index.html" class="text-white">Adopsi</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3 mb-3">
+            <h5>Contact</h5>
+            <a href="https://wa.me/0812345678910" style="color: white"
+              >0812-3456-78910</a
+            >
+            <p>
+              <a href="mailto:admin@joycat.com" class="text-white"
+                >admin@joycat.com</a
+              >
+            </p>
+            <a
+              class="list-unstyled"
+              href=" https://maps.app.goo.gl/d9ze4WH84M2zgJZc6"
+              style="color: white"
+            >
+              <p>
+                Jl. Radar Auri No.32d, Cisalak Ps., Kec. Cimanggis, Kota Depok,
+                Jawa Barat 16452
+              </p>
+            </a>
+          </div>
+          <div class="col-md-3 mb-3">
+            <h5>Follow us for updates</h5>
+            <a href="#" class="text-white"
+              ><img src="./images/Icon-YT.svg" alt="YouTube" width="24"
+            /></a>
+            <a href="#" class="text-white"
+              ><img src="./images/Icon-YT (1).svg" alt="TikTok" width="24"
+            /></a>
+            <a href="#" class="text-white"
+              ><img src="./images/Icon-YT (2).svg" alt="Instagram" width="24"
+            /></a>
+          </div>
+        </div>
+      </div>
+      <hr class="garis" style="height: 1px; background-color: #c6eae3" />
+      <div class="row mt-4">
+        <div class="col-12">
+          <p class="text-center">
+            &copy; 2024 · Asesmen Sumatif Akhir Tahun Sekolah Developer
+            Indonesia · Dibuat oleh Abdullah Fulan · All images are either free
+            stocks or generated by AI.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      const submit =document.querySelector("#submit")
+      const form =document.querySelector("form")
+      const ty =document.querySelector("#thankYouMessage")
+
+      submit.addEventListener("click", () =>  {
+        form.classList.add("hidden");
+        ty.classList.remove("hidden");
+
+      })
+  </script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
